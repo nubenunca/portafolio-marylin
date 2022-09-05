@@ -3,23 +3,23 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello World, SOY MARYLIN
-          
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className='App-header' >
+        <div className='Flex-container'>
+          <div className='Col'>
+            <img src={logo} className="App-logo" alt="logo" width={"200px"} />
+          </div>
+          <div className='Col'>
+            <h1> <em>Hello world!</em></h1>
+            <p> (...) Sólo yo sé que si la mano <br/>
+              deslizo por el aire, todavía<br/>
+              me hieren sus espinas. <br/>
+            </p>
+            <div className='Cite'>
+              <cite> Meira del Mar</cite>
+            </div>
+          </div>
+        </div>
+      </div>
   );
 }
 
